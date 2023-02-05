@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Form</title>
+    <style>
+        form {
+            width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #000;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        input {
+            display: block;
+            margin-bottom: 10px;
+            padding: 5px;
+            width: 100%;
+        }
+        input[type="submit"] {
+            width: auto;
+            margin: 0 auto;
+        }
+    </style>
+</head>
+<body>
+    <form action="" id="form" method="post">
+        <label for="name">Box 1</label>
+        <input type="text" id="input1" name="name" >
+        <label for="email">Box 2</label>
+        <input type="text" id="input2" name="email" >
+        <label for="phone">Box 3</label>
+        <input type="text" id="input3" name="phone" >
+        <label for="browsers">source</label>
+        <select name="browsers" id="browsers">
+            <option value="chrome">Chrome</option>
+            <option value="firefox">Firefox</option>
+            <option value="safari">Safari</option>
+            <option value="opera">Opera</option>
+            <option value="ie">Internet Explorer</option>
+        </select>
+  <label for="cars"> cars</label>
+    <select name="cars" id="cars">
+        <option value="volvo">Volvo</option>
+        <option value="saab">Saab</option>
+        <option value="mercedes">Mercedes</option>
+        <option value="audi">Audi</option>
+    </select>
+  <label for="animals"> animals</label>
+    <select name="animals" id="animals">
+        <option value="dog">Dog</option>
+        <option value="cat">Cat</option>
+        <option value="horse">Horse</option>
+        <option value="sheep">Sheep</option>
+    </select>
+<label for="fruits"> fruits</label>
+    <select name="fruits" id="fruits">
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="orange">Orange</option>
+        <option value="grape">Grape</option>
+    </select>
+<label for="vegetables"> vegetables</label>
+    <select name="vegetables" id="vegetables">
+        <option value="carrot">Carrot</option>
+        <option value="potato">Potato</option>
+        <option value="onion">Onion</option>
+        <option value="tomato">Tomato</option>
+    </select>
+        
+<label for="colors"> colors</label>
+    <select name="colors" id="colors">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="yellow">Yellow</option>
+    </select>
+<label for="summary"> summary</label>
+<input type="text" id="summary" name="summary" >
+<input type="submit" id="submit-button" value="Submit">
+    </form>
+</html>
